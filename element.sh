@@ -18,7 +18,7 @@ fi
 # if element doesn't exist
 if [[ -z $ELEMENT ]]
 then 
-  echo -e '\nI could not find that element in the database.'
+  echo -e 'I could not find that element in the database.'
   exit
 fi
 
